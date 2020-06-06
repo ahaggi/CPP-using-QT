@@ -9,6 +9,7 @@ void lesFlerVerdier (){
     string navn;
     int alder;
 
+
     cout << "legg merke til hvordan cin fongerer" << endl;
 
     cout << "Tast inn navn og alder" << endl;
