@@ -1,0 +1,8 @@
+1              \parents.last()->appendChild   "rot append 1"
+    1-1        \parents << parents.last()->child(den siste "1")  ==> parents.last()->appendChild "1 append 1-1"
+        1-1-1  \parents << parents.last()->child(den siste "1-1")  ==> parents.last()->appendChild "1-1 append 1-1-1"
+2              \pop(1-1) og pop(1) ==> "rot append 2"
+    2-1        \parents << parents.last()->child(den siste "2") ==> parents.last()->appendChild "2 append 2-1"
+    2-2        \parents.last()->appendChild "2 append 2-2"
+        2-2-1  \parents << parents.last()->child(den siste "2-2") ==> parents.last()->appendChild "2-2 append 2-2-1"
+    2-3        \pop(2-2) ==> "2 append 2-3"
